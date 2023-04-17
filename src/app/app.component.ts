@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'eventbinding';
+counter=0;
+  increment(){
+    this.counter+=1;
+  }
+    decrement(){
+      this.counter-=1;
+    
+  }
 }
